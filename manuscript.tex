@@ -1,0 +1,46 @@
+\documentclass[11pt,a4j]{jarticle}
+%
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{ascmac}
+\usepackage{listings,jlisting}
+\usepackage{color}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\renewcommand{\lstlistingname}{リスト}
+
+\lstset{
+  breaklines=true,
+  classoffset=1,
+  frame=tRBl,
+  framesep=5pt,
+  showstringspaces=false,
+  numbers=left,
+  stepnumber=1,
+  tabsize=2,
+  basicstyle=\ttfamily\scriptsize,
+  commentstyle=\textit,
+  keywordstyle=\bfseries,
+  numberstyle=\tiny,
+  commentstyle=\color{mygreen},
+  keywordstyle=\color{blue},
+  numberstyle=\tiny\color{mygray},
+  rulecolor=\color{black},
+  stringstyle=\color{mymauve},
+  language=Java
+}
+
+
+\title{Report 1}
+\author{Myname}
+
+\begin {document}
+
+\maketitle
+\input {build/Main.md}
+
+\end{document}
