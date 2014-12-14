@@ -2,11 +2,10 @@
 
 ## Requirements
 
-- OS X
-- basictex `brew install basictex`
+- `gem install pygments.rb asciidoctor`
 
 ## Build
 
 ```bash
-$ ./build.sh
+$ asciidoctor Report.adoc
 ```

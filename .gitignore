@@ -1,5 +1,1 @@
-*.pdf
-*.out
-*.log
-*.dvi
-*.aux
+.DS_Store
